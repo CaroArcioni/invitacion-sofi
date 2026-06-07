@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Sail"
 }
 
 
 .body {
     max-width: 414px;
     background-color: #f8f2f3;
+    font-family: "Sail", system-ui;
+    font-weight: 400;
 }
 
 /* HEADER */
