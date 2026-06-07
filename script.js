@@ -17,3 +17,6 @@ function actualizarContador() {
 
 setInterval(actualizarContador, 1000);
 actualizarContador();
+
+const musica = document.getElementById("musica");
+musica.volume = 0.1;
