@@ -108,6 +108,12 @@ body {
     background-color: white;
     text-align: center;
     color: black;
-    border-radius: 20px;
-    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(105, 82, 82);
+    transition: .3s ease-in-out;
+
+    &:focus {
+        background-color: darkorchid;
+    }
 }
