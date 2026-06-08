@@ -1,0 +1,92 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  max-width: 414px;
+  background-color: #f8f2f3;
+  text-align: center;
+}
+.body .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .header img {
+  width: 414px;
+}
+.body .header .tamaño {
+  width: 150px;
+  margin: 2rem;
+}
+.body .main .tamaño {
+  width: 150px;
+  margin: 2rem;
+}
+.body .main p {
+  margin: 1rem 0;
+}
+.body .main h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.body .main h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.body .main #contador {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.body .main #contador div {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.body .main #contador span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.body .main #contador .tiempo p {
+  margin-bottom: 5px;
+}
+.body .main img {
+  width: 414px;
+  margin: 2rem 0;
+}
+.body .main __div {
+  background-color: rgb(229, 163, 198);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .main __div section {
+  width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.body .main __div p {
+  padding: 10px;
+}
+.body .main __div .boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgb(105, 82, 82);
+  transition: 0.3s ease-in-out;
+}
+.body .main __div .boton:focus {
+  background-color: darkorchid;
+}
+
+/*# sourceMappingURL=style.css.map */
