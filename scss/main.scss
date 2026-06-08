@@ -1,0 +1,106 @@
+@import"./recursos/reseteo";
+
+.body {
+    max-width: 414px;
+    background-color: #f8f2f3;
+    text-align: center;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 414px;
+        }
+
+        .tamaño {
+            width: 150px;
+            margin: 2rem;
+        }
+    }
+
+    .main {
+        .tamaño {
+            width: 150px;
+            margin: 2rem;
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        #contador {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            div {
+                padding: 15px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+            }
+
+            span {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .tiempo p {
+                margin-bottom: 5px;
+            }
+        }
+
+        img {
+            width: 414px;
+            margin: 2rem 0;
+        }
+
+        __div {
+            background-color: rgb(229, 163, 198);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            section {
+                width: 350px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            .boton {
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                text-align: center;
+                color: black;
+                border-radius: 5px;
+                padding: 10px;
+                border: 1px solid rgb(105, 82, 82);
+                transition: .3s ease-in-out;
+
+                &:focus {
+                    background-color: darkorchid;
+                }
+            }
+
+        }
+    }
+}

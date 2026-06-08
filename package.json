@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "nodemon": "^3.1.14",
+    "sass": "^1.100.0"
+  },
+  "name": "invitacion-sofi_copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaroArcioni/invitacion-sofi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaroArcioni/invitacion-sofi/issues"
+  },
+  "homepage": "https://github.com/CaroArcioni/invitacion-sofi#readme"
+}
