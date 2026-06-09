@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Sail&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .body {
@@ -31,16 +34,21 @@
 
         p {
             margin: 1rem 0;
+            color: #c34c62;
+            font-size: 25px;
         }
 
         h1 {
             text-align: center;
-            margin: 1rem 0;
+            margin: 2rem 0;
+            color: #c34c62;
+            font-size: 27px;
         }
 
         h2 {
             text-align: center;
-            margin: 1rem 0;
+            margin: 2rem 0;
+            color: #af7357;
         }
 
         #contador {
@@ -61,6 +69,8 @@
 
             .tiempo p {
                 margin-bottom: 5px;
+                color: #c34c62;
+                font-size: 18px;
             }
         }
 
@@ -69,39 +79,86 @@
             margin: 2rem 0;
         }
 
-        __div {
-            background-color: rgb(229, 163, 198);
+        .main__div {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            section {
+            #ubicacion {
                 width: 350px;
                 margin: 20px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-            }
 
-            p {
-                padding: 10px;
-            }
-
-            .boton {
-                width: 200px;
-                height: 50px;
-                background-color: white;
-                text-align: center;
-                color: black;
-                border-radius: 5px;
-                padding: 10px;
-                border: 1px solid rgb(105, 82, 82);
-                transition: .3s ease-in-out;
-
-                &:focus {
-                    background-color: darkorchid;
+                p {
+                    padding: 10px;
                 }
+
+                .boton {
+                    width: 200px;
+                    height: 50px;
+                    background-color: #ebc6d4;
+                    border-radius: 7px;
+                    text-align: center;
+                    border: none;
+
+                    &:hover {
+                        background-color: #eb84a5;
+                    }
+                }
+
+            }
+
+            #confirmacion {
+                width: 350px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                .boton {
+                    width: 200px;
+                    height: 50px;
+                    background-color: #ebc6d4;
+                    border-radius: 7px;
+                    text-align: center;
+                    border: none;
+
+                    &:hover {
+                        background-color: #eb84a5;
+                    }
+                }
+
+            }
+
+            #regalos {
+                width: 350px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                p {
+                    padding: 10px;
+                }
+
+                .boton {
+                    width: 200px;
+                    height: 50px;
+                    background-color: #ebc6d4;
+                    border-radius: 7px;
+                    text-align: center;
+                    border: none;
+
+                    &:hover {
+                        background-color: #eb84a5;
+                    }
+                }
+
             }
 
         }

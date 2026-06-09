@@ -1,7 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Copse&family=Sail&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .body {
@@ -27,14 +29,19 @@
 }
 .body .main p {
   margin: 1rem 0;
+  color: #c34c62;
+  font-size: 25px;
 }
 .body .main h1 {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  color: #c34c62;
+  font-size: 27px;
 }
 .body .main h2 {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  color: #af7357;
 }
 .body .main #contador {
   display: flex;
@@ -52,18 +59,19 @@
 }
 .body .main #contador .tiempo p {
   margin-bottom: 5px;
+  color: #c34c62;
+  font-size: 18px;
 }
 .body .main img {
   width: 414px;
   margin: 2rem 0;
 }
-.body .main __div {
-  background-color: rgb(229, 163, 198);
+.body .main .main__div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.body .main __div section {
+.body .main .main__div #ubicacion {
   width: 350px;
   margin: 20px;
   display: flex;
@@ -71,22 +79,60 @@
   align-items: center;
   text-align: center;
 }
-.body .main __div p {
+.body .main .main__div #ubicacion p {
   padding: 10px;
 }
-.body .main __div .boton {
+.body .main .main__div #ubicacion .boton {
   width: 200px;
   height: 50px;
-  background-color: white;
+  background-color: #ebc6d4;
+  border-radius: 7px;
   text-align: center;
-  color: black;
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid rgb(105, 82, 82);
-  transition: 0.3s ease-in-out;
+  border: none;
 }
-.body .main __div .boton:focus {
-  background-color: darkorchid;
+.body .main .main__div #ubicacion .boton:hover {
+  background-color: #eb84a5;
+}
+.body .main .main__div #confirmacion {
+  width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.body .main .main__div #confirmacion .boton {
+  width: 200px;
+  height: 50px;
+  background-color: #ebc6d4;
+  border-radius: 7px;
+  text-align: center;
+  border: none;
+}
+.body .main .main__div #confirmacion .boton:hover {
+  background-color: #eb84a5;
+}
+.body .main .main__div #regalos {
+  width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.body .main .main__div #regalos p {
+  padding: 10px;
+}
+.body .main .main__div #regalos .boton {
+  width: 200px;
+  height: 50px;
+  background-color: #ebc6d4;
+  border-radius: 7px;
+  text-align: center;
+  border: none;
+}
+.body .main .main__div #regalos .boton:hover {
+  background-color: #eb84a5;
 }
 
 /*# sourceMappingURL=style.css.map */
