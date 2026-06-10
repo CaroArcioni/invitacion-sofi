@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Copse&family=Sail&display=swap");
+@font-face {
+  font-family: "imperial";
+  src: url("../recursos/ImperialScript-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,27 +24,35 @@
 }
 .body .header .tamaño {
   width: 150px;
-  margin: 2rem;
+  margin: 1rem;
 }
 .body .main .tamaño {
   width: 150px;
-  margin: 2rem;
+  margin: 1rem;
 }
-.body .main p {
-  margin: 1rem 0;
+.body .main .frase-cumple {
+  margin: 2rem 0;
   color: #c34c62;
   font-size: 25px;
+  line-height: 1.3;
+  font-style: italic;
+  font-weight: normal;
 }
 .body .main h1 {
   text-align: center;
   margin: 2rem 0;
   color: #c34c62;
-  font-size: 27px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: lighter;
 }
 .body .main h2 {
+  font-family: "imperial";
+  font-size: 70px;
+  font-weight: lighter;
   text-align: center;
-  margin: 2rem 0;
-  color: #af7357;
+  margin: 1rem 0;
+  color: #815764;
 }
 .body .main #contador {
   display: flex;
@@ -49,37 +61,38 @@
 }
 .body .main #contador div {
   padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(195, 94, 113, 0.5);
 }
 .body .main #contador span {
-  font-size: 2rem;
-  font-weight: bold;
+  font-family: "imperial";
+  font-weight: lighter;
+  font-size: 60px;
+  color: #c55a6e;
 }
 .body .main #contador .tiempo p {
   margin-bottom: 5px;
-  color: #c34c62;
-  font-size: 18px;
+  color: #6e5a7a;
+  font-size: 20px;
 }
 .body .main img {
   width: 414px;
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
 }
 .body .main .main__div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.body .main .main__div #ubicacion .tamaño-titulo {
+  width: 60%;
+}
 .body .main .main__div #ubicacion {
-  width: 350px;
-  margin: 20px;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-.body .main .main__div #ubicacion p {
-  padding: 10px;
 }
 .body .main .main__div #ubicacion .boton {
   width: 200px;
@@ -92,9 +105,11 @@
 .body .main .main__div #ubicacion .boton:hover {
   background-color: #eb84a5;
 }
+.body .main .main__div #confirmacion .tamaño-titulo {
+  width: 60%;
+}
 .body .main .main__div #confirmacion {
-  width: 350px;
-  margin: 20px;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,9 +126,11 @@
 .body .main .main__div #confirmacion .boton:hover {
   background-color: #eb84a5;
 }
+.body .main .main__div #regalos .tamaño-titulo {
+  width: 60%;
+}
 .body .main .main__div #regalos {
-  width: 350px;
-  margin: 20px;
+  padding: 10px 0 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
