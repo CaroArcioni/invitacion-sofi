@@ -7,7 +7,7 @@
 }
 
 .body {
-  max-width: 390px;
+  max-width: 414px;
   background-color: #f8f2f3;
   text-align: center;
 }
@@ -132,7 +132,7 @@
   border: none;
 }
 .body .main .main__div #regalos .boton:hover {
-  background-color: #5f4ee3;
+  background-color: #ebc6d4;
 }
 
 /*# sourceMappingURL=style.css.map */
