@@ -118,24 +118,7 @@
                     color: #c34c62;
                     font-size: 27px;
                     font-weight: lighter;
-                    padding: 20px 0 20px 0;
-                }
-
-                .boton {
-                    width: 200px;
-                    height: 50px;
-                    background-color: #ebc6d4;
-                    border-radius: 7px;
-                    font-family: "Copse", serif;
-                    font-size: 17px;
-                    font-weight: normal;
-                    color: #c34b61;
-                    text-align: center;
-                    border: none;
-
-                    &:hover {
-                        background-color: #eb84a5;
-                    }
+                    padding: 20px 0 0 0;
                 }
 
             }
@@ -160,7 +143,11 @@
                     padding: 20px 0 20px 0;
                 }
 
-                .boton {
+                .btn-confirmar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
                     width: 200px;
                     height: 50px;
                     background-color: #ebc6d4;
@@ -200,22 +187,29 @@
                     padding: 20px 0 20px 0;
                 }
 
-                .boton {
-                    width: 200px;
-                    height: 50px;
-                    background-color: #ebc6d4;
-                    border-radius: 7px;
-                    font-family: "Copse", serif;
-                    font-size: 17px;
-                    font-weight: normal;
-                    color: #c34b61;
-                    text-align: center;
-                    border: none;
 
-                    &:hover {
-                        background-color: #eb84a5;
-                    }
+                #mensaje {
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 14px;
                 }
+
+                // .alias {
+                //     width: 200px;
+                //     height: 50px;
+                //     background-color: #ebc6d4;
+                //     border-radius: 7px;
+                //     font-family: "Copse", serif;
+                //     font-size: 17px;
+                //     font-weight: normal;
+                //     color: #c34b61;
+                //     text-align: center;
+                //     border: none;
+
+                //     &:hover {
+                //         background-color: #eb84a5;
+                //     }
+                // }
 
             }
 

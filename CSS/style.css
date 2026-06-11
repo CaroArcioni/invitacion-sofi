@@ -102,22 +102,7 @@
   color: #c34c62;
   font-size: 27px;
   font-weight: lighter;
-  padding: 20px 0 20px 0;
-}
-.body .main .main__div #ubicacion .boton {
-  width: 200px;
-  height: 50px;
-  background-color: #ebc6d4;
-  border-radius: 7px;
-  font-family: "Copse", serif;
-  font-size: 17px;
-  font-weight: normal;
-  color: #c34b61;
-  text-align: center;
-  border: none;
-}
-.body .main .main__div #ubicacion .boton:hover {
-  background-color: #eb84a5;
+  padding: 20px 0 0 0;
 }
 .body .main .main__div #confirmacion .tamaño-titulo {
   width: 60%;
@@ -137,7 +122,11 @@
   font-weight: normal;
   padding: 20px 0 20px 0;
 }
-.body .main .main__div #confirmacion .boton {
+.body .main .main__div #confirmacion .btn-confirmar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   width: 200px;
   height: 50px;
   background-color: #ebc6d4;
@@ -149,7 +138,7 @@
   text-align: center;
   border: none;
 }
-.body .main .main__div #confirmacion .boton:hover {
+.body .main .main__div #confirmacion .btn-confirmar:hover {
   background-color: #eb84a5;
 }
 .body .main .main__div #regalos .tamaño-titulo {
@@ -170,20 +159,10 @@
   font-weight: normal;
   padding: 20px 0 20px 0;
 }
-.body .main .main__div #regalos .boton {
-  width: 200px;
-  height: 50px;
-  background-color: #ebc6d4;
-  border-radius: 7px;
-  font-family: "Copse", serif;
-  font-size: 17px;
-  font-weight: normal;
-  color: #c34b61;
+.body .main .main__div #regalos #mensaje {
+  margin-top: 10px;
   text-align: center;
-  border: none;
-}
-.body .main .main__div #regalos .boton:hover {
-  background-color: #eb84a5;
+  font-size: 14px;
 }
 .body footer h2 {
   font-family: "imperial";
