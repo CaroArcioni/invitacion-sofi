@@ -24,6 +24,17 @@
             width: 414px;
         }
 
+        #playBtn {
+            margin: 1rem 0 2rem 0;
+            background: #d8b38a;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
         .tamaño {
             width: 150px;
             padding: 1rem;
@@ -118,6 +129,7 @@
                     color: #c34c62;
                     font-size: 27px;
                     font-weight: lighter;
+                    line-height: 1.3;
                     padding: 20px 0 0 0;
                 }
 
@@ -160,7 +172,7 @@
                     border: none;
 
                     &:hover {
-                        background-color: #eb84a5;
+                        background-color: #eb8caa;
                     }
                 }
 
@@ -192,24 +204,25 @@
                     margin-top: 10px;
                     text-align: center;
                     font-size: 14px;
+
                 }
 
-                // .alias {
-                //     width: 200px;
-                //     height: 50px;
-                //     background-color: #ebc6d4;
-                //     border-radius: 7px;
-                //     font-family: "Copse", serif;
-                //     font-size: 17px;
-                //     font-weight: normal;
-                //     color: #c34b61;
-                //     text-align: center;
-                //     border: none;
+                button {
+                    width: 200px;
+                    height: 50px;
+                    background-color: #ebc6d4;
+                    border-radius: 7px;
+                    font-family: "Copse", serif;
+                    font-size: 17px;
+                    font-weight: normal;
+                    color: #c34b61;
+                    text-align: center;
+                    border: none;
 
-                //     &:hover {
-                //         background-color: #eb84a5;
-                //     }
-                // }
+                    &:hover {
+                        background-color: #eb8caa;
+                    }
+                }
 
             }
 
@@ -223,7 +236,7 @@
             font-size: 70px;
             font-weight: lighter;
             text-align: center;
-            padding: 2rem 0 3rem 0;
+            padding: 0 0 3rem 0;
             color: #815764;
         }
     }

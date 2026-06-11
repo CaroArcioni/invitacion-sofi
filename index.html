@@ -11,7 +11,8 @@
 <body class="body">
     <header class="header">
         <img src="./recursos/sofi-tranquera-confiltro.jpg" alt="Flores">
-        <audio id="musica" controls>
+        <button id="playBtn">♫ Reproducir</button>
+        <audio id="audio">
             <source src="./recursos/YTDown_YouTube_Clocks_Media_PFW2uSCZ0uE_009_128k.mp3" type="audio/mpeg">
         </audio>
         <img class="tamaño" src="./recursos/sobre.png" alt="sobre">
@@ -57,7 +58,7 @@
         <div class="main__div">
             <section id="ubicacion">
                 <img class="tamaño-titulo" src="./recursos/ubicacion.png" alt="ubicacion">
-                <h3>Avenida los Fundadores 1178</h3>
+                <h3>Avenida los Fundadores 1178<br>Colonia Hinojo</h3>
             </section>
 
             <section id="confirmacion">
@@ -67,7 +68,7 @@
                 <a class="btn-confirmar"
                     href="https://wa.me/5492284225459?text=Hola%20Gla,%20confirmo%20mi%20asistencia%20a%20los%2015%20de%20Sofi"
                     target="_blank">
-                    IR A WHATSAPP
+                    Ir a WhatsApp
                 </a>
                 <!-- <button class="boton">IR A WHATSAPP</button> -->
             </section>
@@ -90,6 +91,23 @@
     <footer>
         <h2>¡Te espero!</h2>
     </footer>
+    <script>const boton = document.getElementById("playBtn");
+        const audio = document.getElementById("audio");
+
+        // Volumen al 30%
+        audio.volume = 0.3;
+
+        boton.addEventListener("click", () => {
+
+            if (audio.paused) {
+                audio.play();
+                boton.textContent = "❚❚ Pausar";
+            } else {
+                audio.pause();
+                boton.textContent = "♫ Reproducir";
+            }
+
+        });</script>
     <script src="script.js"></script>
     <script>
         function copiarAlias() {

@@ -22,6 +22,16 @@
 .body .header img {
   width: 414px;
 }
+.body .header #playBtn {
+  margin: 1rem 0 2rem 0;
+  background: #d8b38a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
 .body .header .tamaño {
   width: 150px;
   padding: 1rem;
@@ -102,6 +112,7 @@
   color: #c34c62;
   font-size: 27px;
   font-weight: lighter;
+  line-height: 1.3;
   padding: 20px 0 0 0;
 }
 .body .main .main__div #confirmacion .tamaño-titulo {
@@ -139,7 +150,7 @@
   border: none;
 }
 .body .main .main__div #confirmacion .btn-confirmar:hover {
-  background-color: #eb84a5;
+  background-color: #eb8caa;
 }
 .body .main .main__div #regalos .tamaño-titulo {
   width: 60%;
@@ -164,12 +175,27 @@
   text-align: center;
   font-size: 14px;
 }
+.body .main .main__div #regalos button {
+  width: 200px;
+  height: 50px;
+  background-color: #ebc6d4;
+  border-radius: 7px;
+  font-family: "Copse", serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #c34b61;
+  text-align: center;
+  border: none;
+}
+.body .main .main__div #regalos button:hover {
+  background-color: #eb8caa;
+}
 .body footer h2 {
   font-family: "imperial";
   font-size: 70px;
   font-weight: lighter;
   text-align: center;
-  padding: 2rem 0 3rem 0;
+  padding: 0 0 3rem 0;
   color: #815764;
 }
 
