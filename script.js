@@ -1,4 +1,4 @@
-const fechaEvento = new Date("2026-06-27T21:30:00");
+const fechaEvento = new Date("2026-06-27T21:00:00");
 
 function actualizarContador() {
     const ahora = new Date();
